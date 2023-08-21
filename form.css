@@ -1,0 +1,9 @@
+body{
+    background-color:bisque;
+}
+div{
+    width: 35%;
+    height: 100px;
+    left: 350px;
+    position: relative;
+}

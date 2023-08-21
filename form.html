@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <div>
+        <fieldset>
+            <legend>
+                REGISTRATION FORM
+            </legend>
+            <label for="fnmae">FIRST NAME  : </label>
+            <input type="text" id="fname"  name="fname" placeholder="Ex:DEEPAK" required>
+            <br>
+            <br>
+            <label for="lnmae">LAST NAME   : </label>
+            <input type="text" id="lname"  name="lname" placeholder="Ex:RAJ" required>
+            <br>
+            <br>
+            <label for="regno"> Register No   :</label>
+            <input type="text" id="regno" name="regno" placeholder="720721104805" required>
+            <br>
+            <br>
+            <label for="dateofbirth">Date Of Birth :</label>
+            <input type="date" id="dateofbirth" name="dateofbirth" required>
+            <br>
+            <br>
+            <label for="gender">Gender    :</label>
+            <input type="radio" id="gender" name="mf" required>
+            <label>Male</label>
+            <input type="radio" id="gender" name="mf" required>
+            <label>Female</label>
+            <br><br>
+            <label id="dept">Department    :</label>
+            <select>
+                <option id="dept" name="cse">CSE</option>
+                <option id="dept" name="ece">ECE</option>
+                <option id="dept" name="it">IT</option>
+                <option id="dept" name="aiml">AIML</option>
+
+            </select>
+            <br><br>
+            <label for="clg">College Name    :</label>
+            <input type="text" id="clg" name="clg" placeholder=" Ex:HICET" maxlength="25" required>
+            <br><br>
+            <label for="mail">Email       :</label>
+            <input type="email" id="mail" name="mail" placeholder="Ex:abcd@gmail.com" required>
+            <br>
+            <br>
+            <label for="pass">Password   :</label>
+            <input type="password" id="pass" name="pass" placeholder="********" minlength="8" maxlength="16">
+            <br>
+            <br>
+            <label for="proof">Proof/CLG Id    :</label>
+            <input type="file" id="proof"  name="proof" value="Choose file" required>
+            <br>
+            <br>
+            
+            <input  type="submit" onclick="alert('Register Completed')" value="SUBMIT">
+            <input  type="reset"  onclick="alert('Register Incomplete')" value="RESET">
+        
+
+        </fieldset>
+    </div>
+    </div>
+</body>
+</html>
